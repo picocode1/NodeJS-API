@@ -2,6 +2,8 @@ const express = require('express')
 const server = express()
 const serverport = 9009
 
+var print = ('[\x1b[31mAPI\x1b[0m]');
+
 //Simple respond for error
 function json_respond(error, error_reason) {
     return JSON.stringify({
@@ -65,8 +67,7 @@ server.get('/api/', (req, request) => {
         "data": "hey!"
     }
     */
-
-    console.log({
+    console.log(print, {
         data: API.data,
         ip: ip_adress
     })
