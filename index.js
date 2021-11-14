@@ -35,14 +35,14 @@ server.get('/api/', (req, request) => {
     }
 
     var API_key = [
-        '5b34c1d5467f5f3b53bbba81d4b23da0',
         '03c7c0ace395d80182db07ae2c30f034',
-        '7815696ecbf1c96e6894b779456d330e',
-        '652186e864af4ff95ff87b9be12f91e8', //Blacklisted API key example
+        '3691308f2a4c2f6983f2880d32e29c84',
+        'ff0c3ce07d5310a4a452778bf6b17d70',
+        '67117df1e2ca460c52084ca261aa85e8', //Blacklisted API key example
     ];
 
     var BLACKLIST_API = [
-        '652186e864af4ff95ff87b9be12f91e8'
+        '67117df1e2ca460c52084ca261aa85e8'
     ]
     var BLACKLIST_CLIENT = [
         '189.65.134.170'
